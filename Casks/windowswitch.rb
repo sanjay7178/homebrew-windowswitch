@@ -1,6 +1,6 @@
 cask "windowswitch" do
-  version "1.0.0"
-  sha256 "0d60a20901cd82b2dd5d47a33c0159d38ce4bc1176e11f336649cfe3fe4e81d1"
+  version "1.1.0"
+  sha256 "7b61ac1a56b0063e8fa86f58bed68376c826d5ef3c8522aa31deef75ae0601a1"
 
   url "https://github.com/sanjay7178/WindowsSwitch/releases/download/v#{version}/WindowSwitch-#{version}.dmg",
       verified: "github.com/sanjay7178/WindowsSwitch/"
@@ -37,7 +37,7 @@ cask "windowswitch" do
 
     Then enable Accessibility and Input Monitoring in System Settings.
 
-    Official homebrew/cask does not accept unsigned apps. Install from this
-    tap (sanjay7178/windowswitch), not from Homebrew core.
+    Official homebrew/cask does not accept unsigned apps. This cask lives in
+    the sanjay7178/windowswitch tap, not in Homebrew core.
   EOS
 end
