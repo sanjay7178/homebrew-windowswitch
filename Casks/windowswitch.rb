@@ -1,6 +1,6 @@
 cask "windowswitch" do
-  version "1.1.0"
-  sha256 "7b61ac1a56b0063e8fa86f58bed68376c826d5ef3c8522aa31deef75ae0601a1"
+  version "1.2.0"
+  sha256 "a4723c4aa3dd89b0f058bff9a683b7b7cc905622d4af1b8bcd2f7f1c669072e4"
 
   url "https://github.com/sanjay7178/WindowsSwitch/releases/download/v#{version}/WindowSwitch-#{version}.dmg",
       verified: "github.com/sanjay7178/WindowsSwitch/"
